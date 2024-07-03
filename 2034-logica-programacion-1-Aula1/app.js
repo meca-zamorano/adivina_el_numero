@@ -1,10 +1,10 @@
 //Variable
-let numeroMaxPosible = Math.floor(Math.random()*100)+1;
+let numeroMaxPosible = 20;
 let numeroSecreto = Math.floor(Math.random()*numeroMaxPosible)+1; //El math.flor me elimina los decimales del math.random y me deja solo el numero entero
 let numeroIngresado = 0;
 let intentos = 1;
 //let palabraVeces = 'vez'
-let maximosIntentos = 6;
+let maximosIntentos = 4;
 
 while(numeroIngresado != numeroSecreto){
     numeroIngresado = parseInt(prompt(`Por favor ingrese un numero entre 1 y ${numeroMaxPosible} :`));
