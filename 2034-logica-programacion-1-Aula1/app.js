@@ -10,6 +10,7 @@ while(numeroIngresado != numeroSecreto){
     numeroIngresado = parseInt(prompt(`Por favor ingrese un numero entre 1 y ${numeroMaxPosible} :`));
     console.log(typeof(numeroIngresado)); //El typeof me permite ver que tipo de dato estoy recibiendo 
 
+    
     //Comparación de dos números
     if (numeroIngresado == numeroSecreto){
         //La condición se cumplió
